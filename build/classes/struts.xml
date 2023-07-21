@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+
+		
+		<action name="login" class="UserController"
+			method="login">
+			<result name="success">/vente-system/articles.jsp</result>
+			<result name="error">/user-system/sign-in.jsp</result>
+		</action>
+
+		<action name="sign_up" class="UserController"
+			method="sign_up">
+
+			<result name="success">/vente-system/articles.jsp</result>
+			<result name="error">/user-system/sign-up.jsp</result>
+
+		</action>
+		 
+		 <!-- logout -->
+		<action name="logout" class="UserController"
+			method="logout">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+
+			<result name="success">/user-system/sign-in.jsp</result>
+		</action>
+		
+		<!-- change password -->
+		<action name="change_pass" class="UserController"
+			method="change_password">
+
+			<result name="success">/vente-system/articles.jsp</result>
+			<result name="error">/user-system/reset-password.jsp</result>
+
+		</action>
+
+
+		<action name="toCart" class="CartController"
+			method="AddProduct">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/articles.jsp</result>
+			
+		</action>
+
+		<action name="Remove" class="CartController"
+			method="RemoveProduct">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/cart.jsp</result>
+		</action>
+
+
+		<action name="inc_quantity" class="CartController"
+			method="Inc_quantity">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/cart.jsp</result>
+		</action>
+
+		<action name="dec_quantity" class="CartController"
+			method="Dec_quantity">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/cart.jsp</result>
+		</action>
+
+
+		<action name="invoice_pdf" class="CartController"
+			method="generatePDF">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+
+			<result name="success">/vente-system/articles.jsp</result>
+			<result name="false">/vente-system/cart.jsp</result>
+		</action>
+		
+		<action name="search" class="Search"
+			method="execute">
+			<result name="success">/vente-system/search.jsp</result>			
+		</action>
+		
+		<action name="RemoveUser" class="Search"
+			method="RemoveUser">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/users.jsp</result>
+		</action>
+		
+		<action name="AdminUser" class="Search"
+			method="AdminUser">
+			<interceptor-ref name="defaultStack">
+				<param name="params.excludeParams">true</param>
+			</interceptor-ref>
+			<param name="id">${id}</param>
+			<result name="success">/vente-system/users.jsp</result>
+		</action>
+
+
+	</package>
+
+</struts>
+

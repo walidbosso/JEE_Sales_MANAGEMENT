@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.checkout-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.delete-btn {
+  display: inline-block;
+  padding: 8px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: rgb(0, 128, 255);
+}
+
+.nav_bar {
+  position: fixed;
+  background-color: rgb(236, 236, 236);
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav_bar img {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.nav_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav_bar ul li {
+  margin-left: 10px;
+}
+
+.nav_bar ul li a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-family :sans-serif;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.nav_bar ul li a span {
+  color: white;
+}
+.nav_bar ul li a spam {
+  color: gray;
+}
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td {
+  text-align: left;
+  padding: 17px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+th {
+  background-color: #2c3e50;
+  padding: 15px;
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+
+
+
+
+.navbar .logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+header img {
+  height: 50px;
+  width: 100px;
+  margin-right: 20px; /* Adjust margin to create space between image and list items */
+  margin-bottom: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 55px;
+}
+
+header .logo {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #333;
+}
+
+header .navbar ul {
+  list-style: none;
+  display: flex; /* Add flex display for the list items to align horizontally */
+  margin-right: 20px; /* Adjust margin to create space between list items and image */
+}
+
+header .navbar ul li {
+  position: relative;
+  /* float: left; Remove this line */
+  margin-left: 20px; /* Adjust margin to create space between list items */
+}
+
+header .navbar ul li a {
+  font-size: 16px;
+  font-family : sans-serif; 
+  padding: 5px;
+  color: #333;
+  display: block;
+  text-decoration: none; /* Add this line to remove underline */
+}
+
+header .navbar ul li a:hover {
+  background: #333;
+  color: #fff;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 2px solid rgba(0, 0, 0, .1);
+}
+
+header .navbar ul li ul li ul {
+  right: 0px;
+  top: 0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+	/*Scroll bar*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px silver; 
+  border-radius: 50px;
+  background: #000080;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000055; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ /*Search css*/
+.search-form {
+	margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+	margin:auto;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+	margin:auto;
+  background-color: #ff2b2b;
+  color: white;
+  border: none;
+  
+  border-radius: 10px;
+ 
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/*Print hide and change appearance when wanna print*/
+@media print {
+			    #printButton {
+			      display: none;
+			      
+			    }
+			    
+			  
+			   header {
+			      box-shadow: 0 0px 0px white;
+			      position: absolute;
+			      left: 33%;
+			      margin : 0px auto;
+			      margin-top:20px;
+			      
+			    }
+			    
+			    header img {
+				  height: 40%;
+				  width: 40%;
+				  }
+				  
+				   h1 {
+				  text-align:center;
+				  text-decoration:underline;
+				  }
+	 	 }
+	 	 
+		
+		
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-family: sans-serif;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        
+/*Scroll up*/
+        .up{transition : all 0.4s ease-out;margin:10px;}
+		.up:hover{border-radius:400px; transform:rotate(720deg); text-shadow: 0 0 4px blue; box-shadow: 0px 0px 7px red;}
+		.up:hover{background-color:red;transition : all 0s ease-out;}
+		
+		
+/* Confirmation dialog f users.jsp*/
+.confirmation-dialog { /* div kamla*/
+  display: none; /* hadi li kan bedloha b jQuery FadeIn()*/
+  position: fixed;/*kaybqa qad window safe wakha teeml scroll l page li ntahet, mohim ki ghatti page kamla*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* opacity kayban page li taht*/
+  z-index: 9999;
+}
+
+.dialog-content {/* div li f west fiv confirmation dialog*/
+  position: absolute;
+  top: 50%; /* yji f noss d foq w noss d chmal ms ghayji beed*/
+  left: 50%;
+  transform: translate(-50%, -50%); /* yji 100% fl west*/
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.dialog-title { /* title ismo confirmation*/
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+
+.dialog-message {/* p li ghan biyno fiha are u sure + ism user*/
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dialog-buttons {
+  text-align: center;
+}
+
+.confirm-button, .cancel-button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.confirm-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.confirm-button:hover, .cancel-button:hover {
+  opacity: 0.8;
+}

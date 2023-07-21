@@ -1,0 +1,266 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+.navbar .logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+header img {
+  height: 50px;
+  width: 100px;
+  margin-right: 20px; /* Adjust margin to create space between image and list items */
+  margin-bottom: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 55px;
+}
+
+header .logo {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #333;
+}
+
+header .navbar ul {
+  list-style: none;
+  display: flex; /* Add flex display for the list items to align horizontally */
+  margin-right: 20px; /* Adjust margin to create space between list items and image */
+}
+
+header .navbar ul li {
+  position: relative;
+  /* float: left; Remove this line */
+  margin-left: 20px; /* Adjust margin to create space between list items */
+}
+
+header .navbar ul li a {
+  font-size: 16px;
+  font-family : sans-serif;
+  padding: 5px;
+  color: #333;
+  display: block;
+  text-decoration: none; /* Add this line to remove underline */
+}
+
+header .navbar ul li a:hover {
+  background: #333;
+  color: #fff;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 2px solid rgba(0, 0, 0, .1);
+}
+
+header .navbar ul li ul li ul {
+  right: 0px;
+  top: 0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+section .img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+section .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .content .form h2 {
+    color: #607D8B;
+    font-weight: 600;
+    font-size: 2.0em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #E63643;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .content .form .input {
+    margin-bottom: 20px;
+
+}
+
+section .content .form .input span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607D8B;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .content .form .input input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid  #2c3e50;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .content .form .input input[type="submit"] {
+    background: #2c3e50;
+    color: #FFF;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .content .form .input input[type="submit"]:hover {
+    background: #E63643;
+}
+
+section .content .form .remember {
+    margin-bottom: 10px;
+    color: #607D8B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .content .form .input p {
+    color: #607D8B;
+}
+
+section .content .form .input p a {
+    color: #E63643;
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 722px) {
+    .img {
+        display: none;
+    }
+
+    section .content .form h2 {
+        font-size: 1.8rem;
+    }
+
+    section .content .form .input p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+	::-webkit-scrollbar {
+		  width: 8px;
+		  height: 5px;
+		}
+		
+		/* Track */
+		::-webkit-scrollbar-track {
+		  box-shadow: inset 0 0 5px silver; 
+		  border-radius: 50px;
+		  background: #000080;
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #000055; 
+		  border-radius: 50px;
+		}
+		
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: red; 
+		}
+
