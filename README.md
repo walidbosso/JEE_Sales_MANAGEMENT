@@ -9,4 +9,3 @@
 * View sales operation report by admin
 - [x] User management
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
