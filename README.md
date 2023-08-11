@@ -1,5 +1,4 @@
 # JEE_Sales_MANAGEMENT
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ## This strategy aims to:
 * View articles
 - [x] Search for an article
@@ -9,3 +8,5 @@
 - [x] View orders
 * View sales operation report by admin
 - [x] User management
+
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
