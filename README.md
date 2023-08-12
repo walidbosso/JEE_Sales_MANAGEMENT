@@ -1,4 +1,4 @@
-# JEE_Sales_MANAGEMENT
+# JEE Sales MANAGEMENT
 ## This strategy aims to:
 * View articles
 - [x] Search for an article
@@ -8,4 +8,8 @@
 - [x] View orders
 * View sales operation report by admin
 - [x] User management
+<br/>
 
+----------------------
+> >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
+----------------------
