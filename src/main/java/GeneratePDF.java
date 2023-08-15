@@ -83,14 +83,14 @@ public class GeneratePDF implements SessionAware {
 			DateFormat dateFormat1 = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss", Locale.ENGLISH);
 			Date date1 = new Date();
 			
-			String file_name = "C:\\Users\\packardbell\\Desktop\\Rayban_invoice_details_"+ dateFormat1.format(date1)+".pdf";
+			String file_name = "C:\\Users\\USER\\Desktop\\Rayban_invoice_details_"+ dateFormat1.format(date1)+".pdf"; //fix your path accordinly
 			Document document = new Document();
 			PdfWriter.getInstance(document, new FileOutputStream(file_name));
 			document.open();
 
 			// Add logo
 			Image logo = Image.getInstance(
-					"C:\\Users\\packardbell\\Desktop\\Master M2I\\M2I_S2\\1-Génie Logiciel\\6-Master 2023 (projet)\\Projet_fin_de_module\\Vente_management\\src\\main\\webapp\\images\\rayban_logo.png");
+					"C:\\Users\\USER\\Desktop\\Master M2I\\M2I_S2\\1-Génie Logiciel\\6-Master 2023 (projet)\\Projet_fin_de_module\\Vente_management\\src\\main\\webapp\\images\\rayban_logo.png");
 			logo.scalePercent(17);
 			logo.setAbsolutePosition(36, document.getPageSize().getHeight() - 36 - logo.getScaledHeight());
 			document.add(logo);
