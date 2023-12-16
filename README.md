@@ -21,34 +21,28 @@
 
 </p>
 
-[![GitHub forks](https://img.shields.io/github/forks/walidbosso/JEE_Sales_MANAGEMENT.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/walidbosso/JEE_Sales_MANAGEMENT/network/)
-[![GitHub watchers](https://img.shields.io/github/watchers/walidbosso/JEE_Sales_MANAGEMENT.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/walidbosso/JEE_Sales_MANAGEMENT/watchers/)
+---
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT)
-![GitHub issues](https://img.shields.io/github/issues/walidbosso/JEE_Sales_MANAGEMENT)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/walidbosso/JEE_Sales_MANAGEMENT)
+![GitHub forks](https://img.shields.io/github/forks/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+
+![GitHub issues](https://img.shields.io/github/issues/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+![GitHub Discussions](https://img.shields.io/github/discussions/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/walidbosso/JEE_Sales_MANAGEMENT)
 
-![GitHub top language](https://img.shields.io/github/languages/top/walidbosso/JEE_Sales_MANAGEMENT)
-
-![GitHub Discussions](https://img.shields.io/github/discussions/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/walidbosso/JEE_Sales_MANAGEMENT)
-![GitHub forks](https://img.shields.io/github/forks/walidbosso/JEE_Sales_MANAGEMENT)
-![GitHub Repo stars](https://img.shields.io/github/stars/walidbosso/JEE_Sales_MANAGEMENT)
-![GitHub watchers](https://img.shields.io/github/watchers/walidbosso/JEE_Sales_MANAGEMENT)
 
+![GitHub top language](https://img.shields.io/github/languages/top/walidbosso/JEE_Sales_MANAGEMENT)
 
-
-
-
-
-
+---
 
 # JEE Sales MANAGEMENT
 
@@ -67,5 +61,11 @@
 > >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
 ----------------------
 
-![GitHub License](https://img.shields.io/github/license/walidbosso/JEE_Sales_MANAGEMENT?style=flat&logoColor=green&labelColor=blue&color=green)
+
+
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT)
+
+![GitHub License](https://img.shields.io/github/license/walidbosso/JEE_Sales_MANAGEMENT)
+
+<!--?style=flat&logoColor=green&labelColor=blue&color=green&label=Fork&maxAge=2592000-->
 
