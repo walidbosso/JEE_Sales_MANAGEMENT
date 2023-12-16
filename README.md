@@ -3,6 +3,7 @@
 ![](https://socialify.git.ci/walidbosso/JEE_Sales_MANAGEMENT/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Formal%20Invitation&pulls=1&stargazers=1&theme=Auto)
 
 </a> 
+
 <p align="center">
 <a href="https://github.com/walidbosso/JEE_Sales_MANAGEMENT">
 <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="60%"/> 
@@ -11,9 +12,8 @@
   
   [![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=walidbosso&data=followers,repositories,stars,commits&theme=nautilus)](https://github.com/walidbosso/JEE_Sales_MANAGEMENT)
 
-  ![GitHub followers](https://img.shields.io/github/followers/walidbosso)
-![GitHub User's stars](https://img.shields.io/github/stars/walidbosso)
-  <div/>
+
+
 <a href="https://github.com/walidbosso/JEE_Sales_MANAGEMENT">
   <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="60%"/>
   <a/>
@@ -21,8 +21,10 @@
 
 </p>
 
----
 
+<!--
+  ![GitHub followers](https://img.shields.io/github/followers/walidbosso)
+![GitHub User's stars](https://img.shields.io/github/stars/walidbosso)
 ![GitHub forks](https://img.shields.io/github/forks/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/walidbosso/JEE_Sales_MANAGEMENT?style=social)
@@ -40,11 +42,14 @@
 ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/walidbosso/JEE_Sales_MANAGEMENT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/walidbosso/JEE_Sales_MANAGEMENT)
 
-![GitHub top language](https://img.shields.io/github/languages/top/walidbosso/JEE_Sales_MANAGEMENT)
+![GitHub top language](https://img.shields.io/github/languages/top/walidbosso/JEE_Sales_MANAGEMENT)-->
 
----
+  </div>
+
 
 # JEE Sales MANAGEMENT
+
+
 
 ## This strategy aims to:
 * View articles
@@ -61,11 +66,11 @@
 > >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
 ----------------------
 
+<div align="center">
 
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT)
-
-![GitHub License](https://img.shields.io/github/license/walidbosso/JEE_Sales_MANAGEMENT)
+![GitHub License](https://img.shields.io/github/license/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 
 <!--?style=flat&logoColor=green&labelColor=blue&color=green&label=Fork&maxAge=2592000-->
 
