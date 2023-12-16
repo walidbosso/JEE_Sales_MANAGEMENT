@@ -46,7 +46,8 @@
 
   </div>
 
-
+<div align="center">
+  
 # JEE Sales MANAGEMENT
 
 
@@ -62,11 +63,12 @@
 - [x] User management
 <br/>
 
+
+  
 ----------------------
 > >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
 ----------------------
 
-<div align="center">
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 
