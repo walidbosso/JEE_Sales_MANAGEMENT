@@ -13,6 +13,10 @@
   [![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=walidbosso&data=followers,repositories,stars,commits&theme=nautilus)](https://github.com/walidbosso/JEE_Sales_MANAGEMENT)
 
 
+  <p align="center">
+<a href="https://github.com/walidbosso/JEE_Sales_MANAGEMENT">
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fwalidbosso%2FJEE_Sales_MANAGEMENT&label=Project%20views&countColor=%23263759&style=flat-square&labelStyle=none" /></a>
+</p>
 
 <a href="https://github.com/walidbosso/JEE_Sales_MANAGEMENT">
   <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="60%"/>
@@ -48,31 +52,117 @@
 
 <div align="center">
   
-# JEE Sales MANAGEMENT
+# JEE E-Commerce Sales Management System
+</div>
 
+This project is a comprehensive e-commerce web application designed for efficient sales management. It utilizes Java Enterprise Edition (JEE) along with various frameworks such as Hibernate, Struts, and Spring. The implementation follows the UML design method, ensuring a structured approach.
 
+## Project Overview
 
-## This strategy aims to:
-* View articles
-- [x] Search for an article
-* Add to cart
-- [x] Place an order
-* Print the invoice
-- [x] View orders
-* View sales operation report by admin
-- [x] User management
-<br/>
+### Key Features
+- Register, Login, Logout, Reset Password
+- View articles
+- Search for an article
+- Add items to the shopping cart
+- Place and track orders
+- Generate and print invoices
+- View order history
+- Admin functionality for sales operation reports
+- Admin functionality for user management
 
+### Technologies Used
+- Java
+- Hibernate
+- Struts
+- Spring
+- MySQL
+- HTML
+- CSS
+- jQuery
 
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK)
+- Integrated Development Environment (IDE) for Java
+- MySQL Database
+- Apache Tomcat Server
+
+### Installation Steps
+1. Import the project into your preferred IDE.
+2. Set up the database using the provided SQL scripts.
+3. Configure database connection properties in the project.
+5. Run the application on an Apache Tomcat Server.
+
+## Usage
+
+1. **View Articles:** Browse through the available articles.
+2. **Search for an Article:** Utilize the search functionality to find specific items.
+3. **Add to Cart:** Select items and add them to your shopping cart.
+4. **Place an Order:** Complete the checkout process to place an order.
+5. **Print Invoice:** Generate and print the invoice for your order.
+6. **View Orders:** Check your order history.
+7. **Admin Operations:** Access sales operation reports and manage users.
+
+## Contributing
+
+We welcome contributions to enhance the functionality and features of this e-commerce sales management system. If you find any issues or have suggestions, feel free to create a pull request.
+
+</div>
+
+<div align="center">
   
 ----------------------
 > >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
 ----------------------
 
+<details>
+
+<summary>👏 Thanks for the support </summary>
+
+## Stargazers
+
+
+<div align="center">
+
+[![Stargazers repo roster for @walidbosso/JEE_Sales_MANAGEMENT](http://reporoster.com/stars/dark/walidbosso/JEE_Sales_MANAGEMENT)](https://github.com/walidbosso/JEE_Sales_MANAGEMENT/stargazers)
+
+
+
+</div>
+
+## Forkers
+
+<div align="center" >
+
+[![Forkers repo roster for @walidbosso/JEE_Sales_MANAGEMENT](http://reporoster.com/forks/dark/walidbosso/JEE_Sales_MANAGEMENT)](https://github.com/walidbosso/JEE_Sales_MANAGEMENT/network/members)
+
+</div>
+
+## Contributors
+
+<a href = "https://github.com/walidbosso">
+  <img src = "https://contrib.rocks/image?repo=walidbosso/JEE_Sales_MANAGEMENT"/>
+</a>
+
+
+<br/></details><br/>
+
+<div align="center">
+
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/walidbosso/JEE_Sales_MANAGEMENT?style=social)
 
+</div>
+<div align="center">
+
 ![GitHub License](https://img.shields.io/github/license/walidbosso/JEE_Sales_MANAGEMENT?style=social)
+
+
+
+
+</div>
+
 
 <!--?style=flat&logoColor=green&labelColor=blue&color=green&label=Fork&maxAge=2592000-->
 
