@@ -89,9 +89,10 @@ This project is a comprehensive e-commerce web application designed for efficien
 - Apache Tomcat Server
 
 ### Installation Steps
-1. Import the project into your preferred IDE.
-2. Set up the database using the provided SQL scripts.
-3. Configure database connection properties in the project.
+1. Fork then Clone the repository.
+2. Import the project into your preferred IDE.
+3. Set up the database using the provided SQL scripts.
+4. Configure database connection properties in the project.
 5. Run the application on an Apache Tomcat Server.
 
 ## Usage
