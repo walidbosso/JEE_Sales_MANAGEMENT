@@ -164,7 +164,22 @@ We welcome contributions to enhance the functionality and features of this e-com
 
 </div>
 
+<a href = "https://github.com/walidbosso">
+  <img src = "https://github.com/walidbosso/Python-GUI/blob/main/border.gif" width="100%"/>
+</a>
+
+<a href = "https://github.com/walidbosso">
+  <img src = "https://github.com/walidbosso/Python-GUI/blob/main/ciber-coding.gif" width="100%"/>
+</a>
+
+<a href = "https://github.com/walidbosso">
+  <img src = "https://github.com/walidbosso/Python-GUI/blob/main/border.gif" width="100%"/>
+</a>
 
 <!--?style=flat&logoColor=green&labelColor=blue&color=green&label=Fork&maxAge=2592000-->
 
 𝚂𝚑𝚘𝚠 𝚜𝚘𝚖𝚎 💙 𝚋𝚢 𝚜𝚝𝚊𝚛𝚛𝚒𝚗𝚐 ⭐ 𝚝𝚑𝚎 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢!
+
+<br/>
+<p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
+
