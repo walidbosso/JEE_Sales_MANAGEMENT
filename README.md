@@ -147,7 +147,8 @@ We welcome contributions to enhance the functionality and features of this e-com
 </a>
 
 
-<br/></details><br/>
+<br/></details><br/><p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
+
 
 <div align="center">
 
@@ -182,4 +183,7 @@ We welcome contributions to enhance the functionality and features of this e-com
 
 <br/>
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
+<p ><a href="#top"><img src="https://img.shields.io/static/v1?label&message=Back+to+Top&color=0b6ab3&style=flat&logo=java" alt="Back to Top" align="center" /></a></p>
+
+
 
