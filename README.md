@@ -117,7 +117,7 @@ We welcome contributions to enhance the functionality and features of this e-com
 > >  <br/> &copy; *by Walid BOUSSOU*   🇲🇦 😄 <br/>  
 ----------------------
 
-<details>
+<details open disabled>
 
 <summary>👏 Thanks for the support </summary>
 
